@@ -15,18 +15,21 @@ A simple **Dash Plotly** web application that provides a **financial dashboard f
 ```sh
 git clone https://github.com/shitalsalke/my-dash-farm-app.git
 cd my-dash-farm-app
-
-2️⃣ Install Dependencies
+```
+### 2️⃣ Install Dependencies
+```
 python -m venv venv
 source .venv/bin/activate
 pip install -r requirements.txt
+```
 
-
-3️⃣ Run the App
+### 3️⃣ Run the App
+```
 python dash-farm-app.py
+```
 
 
-🛠 Tech Stack
+### 🛠 Tech Stack
 - Python (Dash, Flask, Plotly, Pandas)
 - Frontend (HTML, CSS)
 - Deployment (Render)
