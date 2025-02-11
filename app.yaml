@@ -1,0 +1,9 @@
+runtime: python39
+entrypoint: gunicorn -b :$PORT app:app  # Command to start the app
+
+handlers:
+- url: /assets
+  static_dir: assets
+
+- url: /.*
+  script: auto
