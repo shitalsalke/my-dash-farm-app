@@ -8,6 +8,7 @@ import random
 # Initialize Dash app
 app = dash.Dash(__name__, external_stylesheets=["/assets/dark-theme.css"])
 app.title = "Farmer's Financial Dashboard"
+server = app.server
 
 # Sample Data Generation
 farms = ['Farm 1', 'Farm 2', 'Farm 3']
